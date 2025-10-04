@@ -1,0 +1,48 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+    "editor.fontVariations": true,
+    "editor.folding": false,
+    "editor.matchBrackets": "never",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.glyphMargin": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+
+    "explorer.openEditors.visible": 1,
+    
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Predawn",
+    "window.menuBarVisibility": "hidden",
+    "terminal.integrated.fontFamily": "Source Code Pro",
+
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+        
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\lohit\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\python.exe",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",   
+        
+    "window.restoreWindows": "none"
+}
