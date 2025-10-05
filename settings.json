@@ -16,6 +16,7 @@
     "editor.glyphMargin": false,
     "editor.occurrencesHighlight": "off",
     "editor.selectionHighlight": false,
+    "editor.stickyScroll.enabled": false,
 
     "explorer.openEditors.visible": 1,
     
@@ -33,7 +34,10 @@
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
-        "editor.formatOnPaste": true
+        "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit"
+        }
         
     },
     "notebook.formatOnSave.enabled": true,
@@ -44,5 +48,15 @@
     "python.defaultInterpreterPath": "C:\\Users\\lohit\\AppData\\Roaming\\uv\\python\\cpython-3.13.7-windows-x86_64-none\\python.exe",
     "terminal.integrated.defaultProfile.windows": "Git Bash",   
         
-    "window.restoreWindows": "none"
+    "window.restoreWindows": "none",
+    "git.autofetch": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.enablePersistentSessions": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
 }
